@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sound_of_meme/constants.dart';
 import 'package:sound_of_meme/pages/discover_page.dart';
 import 'package:sound_of_meme/pages/liked_songs_page.dart';
 import 'package:sound_of_meme/pages/created_songs_page.dart';
@@ -15,9 +16,9 @@ class SoundOfMemeApp extends StatelessWidget {
     return MaterialApp(
       title: 'Sound of Meme',
       darkTheme: ThemeData(
-        primaryColor: const Color(0xFF001F3F),
-        colorScheme:
-            ColorScheme.fromSwatch().copyWith(secondary: Color(0xFF44D62C)),
+        primaryColor: kMidnightBlue,
+        fontFamily: kFontFamily,
+        colorScheme: ColorScheme.fromSwatch().copyWith(secondary: kRazerGreen),
       ),
       home: MainPage(),
     );
