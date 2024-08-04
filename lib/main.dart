@@ -18,7 +18,8 @@ class SoundOfMemeApp extends StatelessWidget {
       darkTheme: ThemeData(
         primaryColor: kMidnightBlue,
         fontFamily: kFontFamily,
-        colorScheme: ColorScheme.fromSwatch().copyWith(secondary: kRazerGreen),
+        colorScheme: ColorScheme.fromSwatch()
+            .copyWith(primary: kMidnightBlue, secondary: kRazerGreen),
       ),
       home: MainPage(),
     );
