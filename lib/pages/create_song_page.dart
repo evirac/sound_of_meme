@@ -16,6 +16,7 @@ class CreateSongPage extends StatelessWidget {
           bottom: const TabBar(
             indicatorColor: kRazerGreen,
             unselectedLabelColor: Colors.white,
+            labelColor: kRazerGreen,
             tabs: [
               Tab(text: 'Create'),
               Tab(text: 'Custom Create'),
